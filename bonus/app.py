@@ -1,3 +1,6 @@
+#學號: d08142001
+#姓名: 王伯雅
+#stream cloud 的連結: https://diff94-nlp-web-bonusapp-u55y3f.streamlitapp.com/
 import streamlit as st  
 #from textblob import TextBlob
 import pandas as pd
