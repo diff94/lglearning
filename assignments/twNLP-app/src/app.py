@@ -13,6 +13,11 @@ from collocation import Collocation
 from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
 #黃線以為沒裝成功但其實有!
 @st.cache
+def seg():
+    ws_driver = CkipWordSegmenter()
+    ws = ws_driver(st.session_state["input_data"], use_delim=True)
+    return ws  
+@st.cache
 def df_S():
     #gihub的路徑 餵給streamlit要這樣寫
     #pkg_path = Path("__file__").resolve().parent /"assignments"/"twNLP-app"/ "src"
@@ -117,7 +122,7 @@ def run_app(ckip_nlp_models, cwn_upgrade) -> None:
 
     from views.components.sidebar import visualize_side_bar
     from views.containers import display_cwn, display_ckip, display_data_form
-    
+    ws = seg()
     st.title("LOPE")
     input_data = display_data_form()
     model, pipeline, active_visualizers = visualize_side_bar(ckip_nlp_models)
@@ -128,9 +133,7 @@ def run_app(ckip_nlp_models, cwn_upgrade) -> None:
         display_factories[pipeline](
             model, active_visualizers, st.session_state["input_data"])
         #st.session_state["input_data"] #是尚未斷詞input 0:"我想請問"
-        
-        ws_driver = CkipWordSegmenter()
-        ws = ws_driver(st.session_state["input_data"], use_delim=True)
+        ws = seg()
         st.snow()
         #st.subheader
         colloc_title = '<p style="font-family:Courier; color:Blue; font-size: 25px;">Collocation in PPT data</p>'
