@@ -99,7 +99,7 @@ def PPT_counts(input,data):
         df = pd.read_csv("df_S_counts.csv")
         df = df.sort_values(by='counts', ascending=False)
         searchdf = df[df['word'].isin(input[0])]
-    #else: 放keyness 功能進來
+    #else: 放keyness 功能
         
      
     return df, searchdf
