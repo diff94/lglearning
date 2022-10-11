@@ -5,3 +5,6 @@ streamlit==1.12.2
 python-dotenv==0.20.0
 cwnsensetagger==0.1.6
 ckip-transformers==0.3.2
+altair
+collocation
+st_aggrid
