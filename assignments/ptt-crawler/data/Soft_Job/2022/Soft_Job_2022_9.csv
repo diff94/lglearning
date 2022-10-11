@@ -1,18 +1,58 @@
 author,alias,title,date,ip,city,country,ups,downs,comments,url
-appleboy46,小惡魔,[心得] 什麼是 gRPC，架構上為什麼要使用 gRPC,2022-09-06 21:19:20,123.110.136.13,Beixing,Taiwan,25,0,10,https://www.ptt.cc/bbs/Soft_Job/M.1662470366.A.AAB.html
-ooomillie,Hi Millie,[推坑] Automation Test Program（自動化測試在,2022-09-06 13:41:18,118.150.1.44,New Taipei,Taiwan,2,0,1,https://www.ptt.cc/bbs/Soft_Job/M.1662442881.A.CD6.html
-jason789780,majiLove,[請益] google問題的精確與方向,2022-09-06 10:39:42,223.137.68.113,Yilan,Taiwan,9,0,30,https://www.ptt.cc/bbs/Soft_Job/M.1662431984.A.A3F.html
-edison0929,愛迪生,Re: [心得] 在日外商經驗分享,2022-09-06 02:04:44,122.99.18.93,New Taipei,Taiwan,13,0,2,https://www.ptt.cc/bbs/Soft_Job/M.1662401086.A.0A1.html
-OSDBNetwork,Cloud Service,Re: [請益] 如何定義網頁後端,2022-09-05 18:37:45,220.143.251.229,,Taiwan,8,0,5,https://www.ptt.cc/bbs/Soft_Job/M.1662374268.A.769.html
-z850524,胖胖婷,[活動] AWS雲端培訓計畫9/23實體課程 好評加場,2022-09-05 12:00:07,218.166.79.170,Tainan City,Taiwan,0,0,1,https://www.ptt.cc/bbs/Soft_Job/M.1662350409.A.349.html
-MerciQ,gosh...,[請益] 林映股份有限公司,2022-09-05 07:01:04,220.141.169.11,New Taipei,Taiwan,10,0,0,https://www.ptt.cc/bbs/Soft_Job/M.1662332466.A.758.html
-edison0929,愛迪生,Re: [心得] 在日外商經驗分享,2022-09-04 21:04:59,223.140.56.40,Hualien City,Taiwan,7,0,0,https://www.ptt.cc/bbs/Soft_Job/M.1662296702.A.28A.html
-Kuba4ma,,[請益] 如何定義網頁後端,2022-09-04 09:48:10,203.204.54.161,New Taipei,Taiwan,19,3,30,https://www.ptt.cc/bbs/Soft_Job/M.1662256092.A.D10.html
-wind31625,竹本宇,[請益] Offer請益(代PO),2022-09-04 03:55:41,121.111.163.39,Itabashi-ku,Japan,13,2,17,https://www.ptt.cc/bbs/Soft_Job/M.1662234945.A.8F4.html
-edison0929,愛迪生,[心得] 在日外商經驗分享,2022-09-03 14:46:31,122.99.18.93,New Taipei,Taiwan,206,0,7,https://www.ptt.cc/bbs/Soft_Job/M.1662187593.A.8DD.html
-donkey543,呆驢,[請益] 轉職offer請益,2022-09-03 02:09:24,219.71.57.5,New Taipei,Taiwan,14,0,6,https://www.ptt.cc/bbs/Soft_Job/M.1662142172.A.BBE.html
-wind31625,竹本宇,[請益]ACCESS 愛可信台灣軟體,2022-09-02 20:27:16,121.111.163.39,Itabashi-ku,Japan,0,1,2,https://www.ptt.cc/bbs/Soft_Job/M.1662121640.A.1AA.html
-Breve,布蕾,[群組] 程式開發RD群,2022-09-02 11:53:31,66.90.72.171,,United States,3,6,16,https://www.ptt.cc/bbs/Soft_Job/M.1662090813.A.884.html
-empliu,冬馬黨中央政治局委員,[推坑] 112學年度大學升學資安特殊選才外加名額,2022-09-01 13:13:28,140.113.0.229,New Taipei,Taiwan,23,2,25,https://www.ptt.cc/bbs/Soft_Job/M.1662009212.A.994.html
-konamikiko,圓圓,[問卷] 軟體工程師遠距工作意願問卷,2022-09-01 12:47:48,118.160.76.249,New Taipei,Taiwan,40,0,27,https://www.ptt.cc/bbs/Soft_Job/M.1662007671.A.60D.html
-wei115,社畜,[請益] 如何搞懂嵌入式圖形處理？,2022-09-01 12:41:47,42.76.228.94,Beiping,Taiwan,7,0,26,https://www.ptt.cc/bbs/Soft_Job/M.1662007309.A.3D4.html
+kero961240,kobe,[請益] 網際優勢這家公司請益,2022-09-16 09:59:34,42.77.76.76,New Taipei,Taiwan,9,0,7,https://www.ptt.cc/bbs/Soft_Job/M.1663293576.A.AD4.html
+elements,元素,Re: [討論] 10年前資工畢業生留在軟體業的多嗎,2022-09-16 06:57:15,94.140.8.105,,Germany,6,0,7,https://www.ptt.cc/bbs/Soft_Job/M.1663282637.A.A6A.html
+Kuba4ma,,[討論] 10年前資工畢業生留在軟體業的多嗎,2022-09-15 21:04:00,203.204.54.161,New Taipei,Taiwan,6,3,27,https://www.ptt.cc/bbs/Soft_Job/M.1663247042.A.96F.html
+meteor007,meteor007是：,[請益] 面試時的作業,2022-09-15 20:39:12,42.74.58.98,Hsinchu,Taiwan,19,1,51,https://www.ptt.cc/bbs/Soft_Job/M.1663245554.A.DC5.html
+nuphoto,nuphoto,[徵才] 遠端: 前端及全端 網頁工程師 研替可,2022-09-15 07:25:48,60.250.207.240,Hsinchu,Taiwan,5,0,4,https://www.ptt.cc/bbs/Soft_Job/M.1663197950.A.57B.html
+Geison,Angels,[心得] 各位程式設計師節快樂,2022-09-14 17:56:55,101.12.102.239,New Taipei,Taiwan,5,5,5,https://www.ptt.cc/bbs/Soft_Job/M.1663149417.A.3A4.html
+jjjssst,三條丁,[徵才] Unity 遊戲開發工程師(50K up/2-3y),2022-09-14 17:52:41,123.192.245.190,Taichung,Taiwan,6,0,5,https://www.ptt.cc/bbs/Soft_Job/M.1663149164.A.BEF.html
+rewrite0604,馬來貘,[問卷]中小企業主管／新創工作者之生活品質研究,2022-09-14 15:22:36,59.126.224.125,Taichung,Taiwan,0,0,0,https://www.ptt.cc/bbs/Soft_Job/M.1663140158.A.ED2.html
+t8290,Boba,[徵才] YC新創公司徵區塊鏈Data Infra工程師,2022-09-14 13:23:37,14.136.192.133,Central,Hong Kong,0,1,2,https://www.ptt.cc/bbs/Soft_Job/M.1663133021.A.C2E.html
+neverfar,OctSwan,[請益] 轉職軟體業PM和Sales請益,2022-09-13 13:48:54,114.43.207.114,New Taipei,Taiwan,1,1,11,https://www.ptt.cc/bbs/Soft_Job/M.1663048136.A.019.html
+victorman881,蘋果西打,[請益] 該從RD轉PM嗎？,2022-09-12 21:25:17,223.136.106.91,New Taipei,Taiwan,43,1,91,https://www.ptt.cc/bbs/Soft_Job/M.1662989119.A.75E.html
+pelicanper,派立肯,Re: [請益] Data Analyst跟Data Scientist差很多嗎？,2022-09-12 07:50:21,121.99.177.32,Auckland,New Zealand,4,0,0,https://www.ptt.cc/bbs/Soft_Job/M.1662940225.A.A0A.html
+allenh0728,allen,[請益] 台灣軟體工程師薪資跟待遇,2022-09-11 04:44:27,72.143.192.12,Toronto,Canada,33,0,57,https://www.ptt.cc/bbs/Soft_Job/M.1662842669.A.E0A.html
+rogerforreal,從前有座山,[心得] 2021/22 美國SWE實習與正職求職心得,2022-09-22 12:11:11,98.42.216.181,,United States,84,1,5,https://www.ptt.cc/bbs/Soft_Job/M.1663819877.A.576.html
+stanley171,劍魔之煞,[心得] 美國軟體工程師 薪資結構,2022-09-22 11:33:36,216.107.222.98,Lewiston,United States,31,1,15,https://www.ptt.cc/bbs/Soft_Job/M.1663817618.A.CB0.html
+myfamily,我全家,[請益] 非本科Offer請益(代PO),2022-09-30 20:33:49,1.160.96.248,Taoyuan District,Taiwan,12,1,5,https://www.ptt.cc/bbs/Soft_Job/M.1664541231.A.87E.html
+truesword, ,Re: [請益] 移居中國大陸 求職闖天下 誰是利劍?,2022-09-30 14:44:47,43.245.222.32,Central,Hong Kong,15,13,57,https://www.ptt.cc/bbs/Soft_Job/M.1664520291.A.121.html
+zanyking,最後的六年級生,"Re: [心得] 如果可以, 真的建議試試看新創公司",2022-09-30 07:30:35,123.194.158.240,New Taipei,Taiwan,19,0,19,https://www.ptt.cc/bbs/Soft_Job/M.1664494238.A.019.html
+hegemon,hegemon,"Re: [心得] 如果可以, 真的建議試試看新創公司",2022-09-29 15:39:58,114.137.157.6,Hsinchu,Taiwan,14,7,53,https://www.ptt.cc/bbs/Soft_Job/M.1664437201.A.728.html
+u4u4,荔枝,[請益] 非本科 資工碩日間/在職？,2022-09-28 21:47:26,114.25.73.204,New Taipei,Taiwan,6,0,22,https://www.ptt.cc/bbs/Soft_Job/M.1664372848.A.7E3.html
+hegemon,hegemon,"Re: [心得] 如果可以, 真的建議試試看新創公司",2022-09-28 18:39:32,114.137.233.225,Hsinchu,Taiwan,29,1,40,https://www.ptt.cc/bbs/Soft_Job/M.1664361576.A.66D.html
+Hitripod,Hitripod,"[心得] 如果可以, 真的建議試試看新創公司",2022-09-27 21:36:34,42.72.238.52,Hsinchu,Taiwan,12,43,65,https://www.ptt.cc/bbs/Soft_Job/M.1664285796.A.225.html
+Tesarus,提姆休斯,[問卷] 居家工作者睡眠研究,2022-09-27 17:38:10,122.116.101.218,New Taipei,Taiwan,0,0,6,https://www.ptt.cc/bbs/Soft_Job/M.1664271492.A.42E.html
+ousapas,komica123,Re: [討論] 我就問，刷 Leetcode 的表現?,2022-09-27 17:03:48,223.137.10.95,New Taipei,Taiwan,3,1,14,https://www.ptt.cc/bbs/Soft_Job/M.1664269430.A.DB7.html
+applebg,Noble Wolf,[請益] 軟體業現在生態,2022-09-27 15:47:26,220.134.5.239,New Taipei,Taiwan,4,13,9,https://www.ptt.cc/bbs/Soft_Job/M.1664264849.A.C23.html
+w0005151,藍廳,Re: [討論] 我就問，刷題強者的實務表現?,2022-09-27 14:29:11,220.136.36.173,New Taipei,Taiwan,7,0,21,https://www.ptt.cc/bbs/Soft_Job/M.1664260153.A.4BC.html
+EricTCartman,阿ㄆㄧㄚˇ,Re: [討論] 我就問，刷題強者的實務表現?,2022-09-27 09:05:27,62.197.146.37,Ashburn,United States,42,1,25,https://www.ptt.cc/bbs/Soft_Job/M.1664240729.A.729.html
+goodson,blahblah,[討論] 我就問，刷 Leetcode 的表現?,2022-09-26 20:08:22,114.36.46.212,Hualien City,Taiwan,69,26,176,https://www.ptt.cc/bbs/Soft_Job/M.1664194104.A.59C.html
+alfven,王英丸,[請益] 有適合用在生產環境的虛擬機嗎?,2022-09-26 12:15:02,36.224.233.250,New Taipei,Taiwan,33,0,31,https://www.ptt.cc/bbs/Soft_Job/M.1664165704.A.BD0.html
+shwu11,shwu11,[請益] 轉職如何海投小公司,2022-09-25 19:42:09,124.218.88.107,Kaohsiung City,Taiwan,28,1,102,https://www.ptt.cc/bbs/Soft_Job/M.1664106131.A.34A.html
+b122771,躺平的韭菜,Fw: [請益] 想請問資策會推薦大數據還是JAVA班,2022-09-25 17:30:03,114.44.117.112,New Taipei,Taiwan,11,0,38,https://www.ptt.cc/bbs/Soft_Job/M.1664098204.A.57C.html
+qazsd,天際線,[請益]RDP到VDI後在ssh到Linux VM,2022-09-23 13:58:22,59.124.166.120,Hsinchu,Taiwan,15,1,25,https://www.ptt.cc/bbs/Soft_Job/M.1663912705.A.EE0.html
+Coaltit,....,Re: [徵才] 林試所誠徵 科技部計畫碩士級研究助理,2022-09-22 06:07:08,114.43.1.190,Taoyuan District,Taiwan,0,0,3,https://www.ptt.cc/bbs/Soft_Job/M.1663798029.A.3DF.html
+Rubyfish,過去的已不再重要,[徵才] 美商無極資本Senior Full Stack Engineer,2022-09-22 05:32:29,101.10.108.226,New Taipei,Taiwan,2,1,10,https://www.ptt.cc/bbs/Soft_Job/M.1663795955.A.43A.html
+MOONY135,談無慾,[公告] GameHeven無關軟體版進行刪文,2022-09-20 21:55:00,123.193.193.155,New Taipei,Taiwan,0,0,0,https://www.ptt.cc/bbs/Soft_Job/M.1663682102.A.B02.html
+vincentfish,天下無敵,[請益] offer 請益,2022-09-20 19:11:02,123.194.42.114,Beixing,Taiwan,18,1,10,https://www.ptt.cc/bbs/Soft_Job/M.1663672264.A.7AB.html
+c800910,c800910,[請益] 非本科offer請益,2022-09-19 13:51:29,125.228.165.6,,Taiwan,15,0,16,https://www.ptt.cc/bbs/Soft_Job/M.1663566691.A.482.html
+h30306,東坡肉球,[請益] Offer請益,2022-09-19 03:55:47,223.140.225.7,Keelung,Taiwan,7,0,5,https://www.ptt.cc/bbs/Soft_Job/M.1663530949.A.378.html
+abc5555,前進,[心得] 產品人的坑(三)-大公司的危險深水,2022-09-18 22:08:05,61.227.71.109,Chiayi City,Taiwan,12,1,4,https://www.ptt.cc/bbs/Soft_Job/M.1663510087.A.336.html
+appleboy46,小惡魔,[心得] 三款好用的繪圖工具 (系統架構流程圖),2022-09-18 11:15:26,123.110.136.13,Beixing,Taiwan,17,0,4,https://www.ptt.cc/bbs/Soft_Job/M.1663470930.A.DCC.html
+zanyking,最後的六年級生,Re: [討論] 10年前資工畢業生留在軟體業的多嗎,2022-09-18 10:39:04,123.194.158.240,New Taipei,Taiwan,9,0,7,https://www.ptt.cc/bbs/Soft_Job/M.1663468749.A.AB8.html
+chiaohuang,宅男一枚,[請益] 可以截圖標記的軟體,2022-09-17 19:18:16,125.228.159.170,,Taiwan,32,0,41,https://www.ptt.cc/bbs/Soft_Job/M.1663413498.A.F5F.html
+asususer,asususer,Re: [討論] 10年前資工畢業生留在軟體業的多嗎,2022-09-17 15:34:36,39.9.166.16,New Taipei,Taiwan,14,1,24,https://www.ptt.cc/bbs/Soft_Job/M.1663400078.A.2A6.html
+elements,元素,Re: [討論] Leetcode 是否該列入學校必修？,2022-09-17 03:51:22,94.140.8.105,,Germany,18,0,34,https://www.ptt.cc/bbs/Soft_Job/M.1663357884.A.4EA.html
+comicat,可米貓,[請益] offer 請益,2022-09-16 19:47:40,49.216.51.51,Taichung City,Taiwan,3,1,38,https://www.ptt.cc/bbs/Soft_Job/M.1663328864.A.FA3.html
+JasperChang,PeterChou,[討論] Leetcode 是否該列入學校必修？,2022-09-16 19:30:54,114.198.174.89,New Taipei,Taiwan,43,21,81,https://www.ptt.cc/bbs/Soft_Job/M.1663327856.A.A11.html
+SZBZ,北投金城武,[情報] 金融就業職訓-證券期貨交易人才訓練班,2022-09-16 16:32:00,59.115.160.178,New Taipei,Taiwan,0,0,0,https://www.ptt.cc/bbs/Soft_Job/M.1663317121.A.C68.html
+w180112,[NOOB]我超RETARD我超廢 ,[請益] 職涯發展方向,2022-09-16 14:50:02,103.252.202.50,Singapore,Singapore,4,0,13,https://www.ptt.cc/bbs/Soft_Job/M.1663311004.A.F56.html
+applebg,Noble Wolf,[討論] 覺得自己沒有成長呢。,2022-09-16 13:33:53,220.134.5.239,New Taipei,Taiwan,7,18,14,https://www.ptt.cc/bbs/Soft_Job/M.1663306436.A.C89.html
+peter98,專嗆沒邏輯的人,Re: [討論] 10年前資工畢業生留在軟體業的多嗎,2022-09-16 11:41:55,73.195.162.171,Jersey City,United States,31,2,41,https://www.ptt.cc/bbs/Soft_Job/M.1663299745.A.E3F.html
+pfii1997119, ,[請益] 刷題及工作的語言選擇,2022-09-10 16:23:53,114.25.192.37,New Taipei,Taiwan,18,0,42,https://www.ptt.cc/bbs/Soft_Job/M.1662798235.A.7BA.html
+superitman66,大大大,[請益] 移居中國大陸 求職闖天下 誰是利劍?,2022-09-10 14:40:19,114.40.19.79,Kaohsiung City,Taiwan,11,10,42,https://www.ptt.cc/bbs/Soft_Job/M.1662792036.A.B63.html
+school5566,千年大嫌者,[請益] 錄取沒用過的語言會去做嗎？,2022-09-10 13:25:26,36.229.124.59,New Taipei,Taiwan,29,9,44,https://www.ptt.cc/bbs/Soft_Job/M.1662787528.A.9E7.html
+prince101,秋意,[討論]KKday員工跳槽對手Klook／前經理涉竊密30 ,2022-09-10 08:36:31,36.229.233.249,New Taipei,Taiwan,9,0,15,https://www.ptt.cc/bbs/Soft_Job/M.1662770195.A.127.html
+applebg,Noble Wolf,Re: [請益] Data Analyst跟Data Scientist差很多嗎？,2022-09-10 05:47:07,114.140.97.233,,Taiwan,1,2,15,https://www.ptt.cc/bbs/Soft_Job/M.1662760043.A.609.html
+hans33,阿閒閒,[請益] 新工作請益(信邦和捷而思),2022-09-08 13:37:14,42.79.184.239,,Taiwan,6,0,11,https://www.ptt.cc/bbs/Soft_Job/M.1662615436.A.7BC.html
+linda780123,暱稱,[徵才] 美商MobLab徵網頁 UI 設計師,2022-09-07 21:44:59,220.129.56.177,New Taipei,Taiwan,0,1,5,https://www.ptt.cc/bbs/Soft_Job/M.1662558301.A.7F1.html

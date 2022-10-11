@@ -5,3 +5,5 @@ p {
     color: navy;
   }
 
+  <p class="borderexample">Here is an example of a border created using CSS.</p>
+  <p>The class can also be <span class="borderexample">used</span> on the span tag.</p>
