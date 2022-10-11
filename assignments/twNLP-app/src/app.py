@@ -12,11 +12,11 @@ import altair as alt
 from collocation import Collocation
 from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
 #黃線以為沒裝成功但其實有!
-@st.cache
-def seg():
-    ws_driver = CkipWordSegmenter()
-    ws = ws_driver(st.session_state["input_data"], use_delim=True)
-    return ws  
+# @st.cache
+# def seg():
+#     ws_driver = CkipWordSegmenter()
+#     ws = ws_driver(st.session_state["input_data"], use_delim=True)
+#     return ws  
 @st.cache
 def df_S():
     #gihub的路徑 餵給streamlit要這樣寫
@@ -122,6 +122,12 @@ def run_app(ckip_nlp_models, cwn_upgrade) -> None:
 
     from views.components.sidebar import visualize_side_bar
     from views.containers import display_cwn, display_ckip, display_data_form
+    
+    @st.cache
+    def seg():
+        ws_driver = CkipWordSegmenter()
+        ws = ws_driver(st.session_state["input_data"], use_delim=True)
+        return ws
     ws = seg()
     st.title("LOPE")
     input_data = display_data_form()
