@@ -7,4 +7,4 @@ cwnsensetagger==0.1.6
 ckip-transformers==0.3.2
 altair
 collocation
-st_aggrid
+streamlit-aggrid
