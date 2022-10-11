@@ -7,5 +7,5 @@ messageFormat = "%(asctime)s  %(message)s"
 primaryColor = '#228be6'
 backgroundColor = 'rgb(255, 255, 255)'
 [server]
-headless = true
+headless = true 
 
