@@ -1,7 +1,7 @@
 from pathlib import Path
 from typing import Optional
 
-
+#pkg_path = Path("__file__").resolve().parent /"assignments"/"twNLP-app"/ "src"
 cwn_model_path = Path.home().resolve() / ".cwn_graph"
 
 

@@ -3,8 +3,8 @@ import asyncio
 import aiofiles
 from pathlib import Path
 
-
-pkg_path = Path("__file__").resolve().parent / "src"
+pkg_path = Path("__file__").resolve().parent /"assignments"/"twNLP-app"/ "src"
+# pkg_path = Path("__file__").resolve().parent / "src"
 ckip_path = pkg_path / "models" / "ckip"
 
 
