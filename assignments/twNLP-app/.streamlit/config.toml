@@ -8,5 +8,5 @@ primaryColor = '#228be6'
 backgroundColor = 'rgb(255, 255, 255)'
 [server]
 headless = true
-port = 8501 
+ 
 
