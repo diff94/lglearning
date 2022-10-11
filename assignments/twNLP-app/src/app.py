@@ -128,11 +128,11 @@ def run_app(ckip_nlp_models, cwn_upgrade) -> None:
     input_data = display_data_form()
     model, pipeline, active_visualizers = visualize_side_bar(ckip_nlp_models)
     display_factories = {"CKIP": display_ckip, "CWN": display_cwn}
-    @st.cache
-    def seg():
-        ws_driver = CkipWordSegmenter()
-        ws = ws_driver(st.session_state["input_data"], use_delim=True)
-        return ws
+    # @st.cache
+    # def seg():
+    #     ws_driver = CkipWordSegmenter()
+    #     ws = ws_driver(st.session_state["input_data"], use_delim=True)
+    #     return ws
      
 #session_state let the input live ouside the rerun 
     if "input_data" in st.session_state:
@@ -140,9 +140,9 @@ def run_app(ckip_nlp_models, cwn_upgrade) -> None:
             model, active_visualizers, st.session_state["input_data"])
         #st.session_state["input_data"] #是尚未斷詞input 0:"我想請問"
         
-        #ws_driver = CkipWordSegmenter()
-        #ws = ws_driver(st.session_state["input_data"], use_delim=True)
-        ws = seg()
+        ws_driver = CkipWordSegmenter()
+        ws = ws_driver(st.session_state["input_data"], use_delim=True)
+        # ws = seg()
         st.snow()
         #st.subheader
         colloc_title = '<p style="font-family:Courier; color:Blue; font-size: 25px;">Collocation in PPT data</p>'
