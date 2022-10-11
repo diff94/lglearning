@@ -6,5 +6,6 @@ messageFormat = "%(asctime)s  %(message)s"
 # Primary accent for interactive elements
 primaryColor = '#228be6'
 backgroundColor = 'rgb(255, 255, 255)'
+[server]
+headless = true
 
-This error can be resolved by making any change to .streamlit/config.toml. It doesn’t even have to contain anything (i.e. headless = true is not necessary). Just type a new line, commit it, and push it to the repo. Then I have this log
