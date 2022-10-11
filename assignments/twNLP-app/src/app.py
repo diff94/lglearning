@@ -1,3 +1,5 @@
+# 國立臺灣大學語言所 d08142001 王伯雅
+# https://diff94-nlp-web-assignmentstwnlp-appsrcapp-jn670q.streamlitapp.com/
 import streamlit as st
 from views.components.spinner import dowload_ckip_package, download_cwn_drivers
 import pandas as pd
