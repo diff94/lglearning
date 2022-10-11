@@ -123,17 +123,17 @@ def run_app(ckip_nlp_models, cwn_upgrade) -> None:
     from views.components.sidebar import visualize_side_bar
     from views.containers import display_cwn, display_ckip, display_data_form
     
+    
+    st.title("LOPE")
+    input_data = display_data_form()
+    model, pipeline, active_visualizers = visualize_side_bar(ckip_nlp_models)
+    display_factories = {"CKIP": display_ckip, "CWN": display_cwn}
     @st.cache
     def seg():
         ws_driver = CkipWordSegmenter()
         ws = ws_driver(st.session_state["input_data"], use_delim=True)
         return ws
-    ws = seg()
-    st.title("LOPE")
-    input_data = display_data_form()
-    model, pipeline, active_visualizers = visualize_side_bar(ckip_nlp_models)
-    display_factories = {"CKIP": display_ckip, "CWN": display_cwn}
-    
+     
 #session_state let the input live ouside the rerun 
     if "input_data" in st.session_state:
         display_factories[pipeline](
