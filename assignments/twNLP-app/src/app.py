@@ -1,8 +1,8 @@
 import streamlit as st
 from views.components.spinner import dowload_ckip_package, download_cwn_drivers
 import pandas as pd
-import glob
-import os
+# import glob
+# import os
 from pathlib import Path
 import numpy as np
 from ckip_transformers.nlp import CkipWordSegmenter
@@ -12,16 +12,18 @@ from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
 #黃線以為沒裝成功但其實有!
 @st.cache
 def df_S():
-    pkg_path = Path("__file__").resolve().parent / "assignments/twNLP-app/src"
-    PTT_path = pkg_path / "df_S.csv"
-    df =pd.read_csv(PTT_path)
+    pkg_path = Path("__file__").resolve().parent / "src"
+    #PTT_path = pkg_path / "df_S.csv" 
+    #這是要寫path不是寫檔名
+    #"df_S.csv"  錯誤
+    df =pd.read_csv("df_S.csv")
     return df
 df_S = df_S() 
 @st.cache
 def df_K():
     pkg_path = Path("__file__").resolve().parent / "src"
-    PTT_path = pkg_path / "df_K.csv"
-    df =pd.read_csv(PTT_path)
+    # PTT_path = pkg_path / "df_K.csv"
+    df =pd.read_csv("df_K.csv")
     return df
 df_K = df_K() 
 #透過@st.cache 就不用重複上傳df
@@ -88,13 +90,13 @@ def PPT_counts(input,data):
     # ws_driver = CkipWordSegmenter()
     # ws = ws_driver(input, use_delim=True)
     if data == "KPOP":
-        PTT_path = pkg_path / "df_K_counts.csv" 
-        df = pd.read_csv(PTT_path)
+        #PTT_path = pkg_path / "df_K_counts.csv" 
+        df = pd.read_csv("df_K_counts.csv")
         df = df.sort_values(by='counts', ascending=False)
         searchdf = df[df['word'].isin(input[0])]
     elif data == "SoftJob":
-        PTT_path = pkg_path / "df_S_counts.csv" 
-        df = pd.read_csv(PTT_path)
+        # PTT_path = pkg_path / "df_S_counts.csv" 
+        df = pd.read_csv("df_S_counts.csv")
         df = df.sort_values(by='counts', ascending=False)
         searchdf = df[df['word'].isin(input[0])]
     #else: 放keyness 功能進來
