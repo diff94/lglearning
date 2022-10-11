@@ -139,7 +139,9 @@ def run_app(ckip_nlp_models, cwn_upgrade) -> None:
         display_factories[pipeline](
             model, active_visualizers, st.session_state["input_data"])
         #st.session_state["input_data"] #是尚未斷詞input 0:"我想請問"
-        
+        #下面這種方式會一直re-run佔據記憶體
+        #所以要寫在run app這個function外面
+        #然後input_data下面
         # ws_driver = CkipWordSegmenter()
         # ws = ws_driver(st.session_state["input_data"], use_delim=True)
         ws = seg()
