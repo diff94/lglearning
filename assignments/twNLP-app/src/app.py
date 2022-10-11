@@ -14,6 +14,10 @@ from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
 #黃線以為沒裝成功但其實有!
 @st.cache
 def df_S():
+    #gihub的路徑 餵給streamlit要這樣寫
+    #pkg_path = Path("__file__").resolve().parent /"assignments"/"twNLP-app"/ "src"
+    #local跑時要改回
+    #pkg_path = Path("__file__").resolve().parent / "src"
     pkg_path = Path("__file__").resolve().parent /"assignments"/"twNLP-app"/ "src"
     PTT_path = pkg_path / "df_S.csv" 
     
