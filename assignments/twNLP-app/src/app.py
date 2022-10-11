@@ -12,7 +12,7 @@ from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
 #黃線以為沒裝成功但其實有!
 @st.cache
 def df_S():
-    pkg_path = Path("__file__").resolve().parent / "src"
+    pkg_path = Path("__file__").resolve().parent / "assignments/twNLP-app/src"
     PTT_path = pkg_path / "df_S.csv"
     df =pd.read_csv(PTT_path)
     return df
