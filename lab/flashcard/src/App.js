@@ -1,6 +1,8 @@
 import React from "react";
-import Card from "./components/Card";
-import './style.css';
+import Cardtest from "./Cardtest";
+// import './style.css';
+import '../public/styles.css';
+//回到上一層所以記得 //
 // function Card(props){
 //     const [text,setText] = React.useState(props.frontSide);
 //     function handleClick (){
@@ -18,9 +20,9 @@ export default function App(){
         <div className = "App">
         <h1>Flash Cards</h1>
         <h2>Click it!</h2>
-        <Card frontSide = "9*6" backSide = "54" />
-        <Card frontSide = "9*6" backSide = "54" />
-        <Card frontSide = "9*6" backSide = "54" />
+        <Cardtest frontSide = "9*6" backSide = "54" />
+        <Cardtest frontSide = "9*6" backSide = "54" />
+        <Cardtest frontSide = "rabbit*8" backSide = "rabbyte" />
         </div>
     )
 }

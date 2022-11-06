@@ -1,3 +1,10 @@
+import Header from "../components/Header";
+import Content from "../components/Content";
+//import component function from the file
+import '../../public/styles.css';
+// 叫兩層上去
+//Flashcard就是我們app.js
+//所以不用再創app了唷
 const vocabularies = [
   {
     word: "knotty",
@@ -26,9 +33,53 @@ const vocabularies = [
     example: "He gave her some very peculiar looks.",
   },
 ];
-
+//這裡是把function寫在flashcard (app)
+//也可以學影片把function 寫成另個component 
+//參考Cardtest那樣
 function Flashcard() {
-  console.log(vocabularies);
+  //const[text,setText]= React.useState(false);
+  // const handleExampleclick = (e) => {
+  //   e.currentTarget.style.visibility = 'hidden';
+  //   console.log(e.currentTarget);
+    
+  // };
+  
+  const handleExampleclick = (oldState => {
+    if (oldState === vocabularies.definition){
+      return vocabularies.Example;
+    } else {
+      return vocabularies.definition;
+    }
+  });
+  // const handleExampleclick = (oldState => {
+  //   if (oldState === vocabularies.definition){
+  //     return vocabularies.Example;
+  //   } else {
+  //     return vocabularies.definition;
+  //   }
+  // });
+  const handleStarClick = (event) => {
+    //一定要用arrow function 
+
+  };
+  // const handleExampleclick = (event) => {
+
+  // };
+  
+  return (
+    <div>
+      <Header title = {"My Flash Card"} />
+      <Content 
+        vocabularies = {vocabularies}
+        handleStarClick= {handleStarClick}
+        handleExampleclick= {handleExampleclick}
+        
+       />
+    </div>
+
+  );
+  // console.log(vocabularies);
+  // 查一下console.log的意思
 }
 
 export default Flashcard;

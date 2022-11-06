@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Flashcard from "./containers/Flashcard";
-import Card from "./components/Card";
+// import Card from "./components/Card";
 import './public/style.css';
 
 
