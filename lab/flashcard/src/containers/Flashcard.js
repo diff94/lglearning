@@ -37,13 +37,14 @@ const vocabularies = [
 //也可以學影片把function 寫成另個component 
 //參考Cardtest那樣
 function Flashcard() {
+  //如果用state但似乎還是會不讀到example
   //const[text,setText]= React.useState(false);
   // const handleExampleclick = (e) => {
   //   e.currentTarget.style.visibility = 'hidden';
   //   console.log(e.currentTarget);
     
   // };
-  
+  //不使用state
   const handleExampleclick = (oldState => {
     if (oldState === vocabularies.definition){
       return vocabularies.Example;
