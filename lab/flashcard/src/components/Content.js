@@ -9,6 +9,7 @@ export default function Content({vocabularies}) {
                 word = {v.word}
                 part_of_speech = {v.part_of_speech}
                 definition = {v.definition}
+                Example = {v.example}
               />
             </div>
 
