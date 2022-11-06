@@ -38,20 +38,39 @@ const vocabularies = [
 //參考Cardtest那樣
 function Flashcard() {
   //如果用state但似乎還是會不讀到example
-  //const[text,setText]= React.useState(false);
-  // const handleExampleclick = (e) => {
+  const[text,setText]= React.useState(false);
+  const handleExampleclick = () => {
+    console.log(Example);
+    setText(!text);
+    
+  };
+  // const old_handleExampleclick = (e) => {
   //   e.currentTarget.style.visibility = 'hidden';
   //   console.log(e.currentTarget);
     
   // };
+  const nostate_handleExampleclick = (event) => {
+    event.preventDefault();
+    event.currentTarget.style.visibility = 'hidden';
+    console.log(e.currentTarget);
+    
+  };
   //不使用state
-  const handleExampleclick = (oldState => {
-    if (oldState === vocabularies.definition){
-      return vocabularies.Example;
-    } else {
-      return vocabularies.definition;
-    }
-  });
+  // const old_handleExampleclick = (oldState => {
+  //   if (oldState === vocabularies.definition){
+  //     return vocabularies.Example;
+  //   } else {
+  //     return vocabularies.definition;
+  //   }
+  // });
+
+  // const handleExampleclick = (oldState => {
+  //   if (oldState === vocabularies.definition){
+  //     return vocabularies.Example;
+  //   } else {
+  //     return vocabularies.definition;
+  //   }
+  // });
   // const handleExampleclick = (oldState => {
   //   if (oldState === vocabularies.definition){
   //     return vocabularies.Example;

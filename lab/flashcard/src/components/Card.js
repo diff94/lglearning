@@ -6,6 +6,7 @@ export default function Card( {
     part_of_speech,
     definition,
     handleExampleClick,
+    Example,
 }) {
     return (
         <>
@@ -30,7 +31,8 @@ export default function Card( {
           className={"example-button"} 
           text = {"Example"} 
           onClick = {handleExampleClick}
-          />             
+          /> 
+          <h5>{Example}</h5>            
        {/*handleExampleClick 寫在flashcard裡面*/}
         </>
     );
