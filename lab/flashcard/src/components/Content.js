@@ -10,6 +10,7 @@ export default function Content({vocabularies}) {
                 part_of_speech = {v.part_of_speech}
                 definition = {v.definition}
                 Example = {v.example}
+                handleExampleclick={v.example}
               />
             </div>
 
