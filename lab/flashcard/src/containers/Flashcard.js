@@ -48,12 +48,14 @@ function Flashcard() {
   return (
     <>
       
+     
+      <button onClick={handleExampleClick}>
+      click
       <h5 id="Example">{
       text ? Example:definition
       }</h5>
-      <button onClick={handleExampleClick}>
-      click
       </button>
+      
     </>    
   )
 
@@ -78,12 +80,12 @@ function Flashcard() {
   //   console.log(e.currentTarget);
     
   // };
-  const nostate_handleExampleclick = (event) => {
-    event.preventDefault();
-    event.currentTarget.style.visibility = 'hidden';
-    console.log(e.currentTarget);
+  // const handleExampleClick = (event) => {
+  //   event.preventDefault();
+  //   event.currentTarget.style.visibility = 'hidden';
+  //   console.log(e.currentTarget);
     
-  };
+  // };
   //不使用state
   // const old_handleExampleclick = (oldState => {
   //   if (oldState === vocabularies.definition){
@@ -121,7 +123,8 @@ function Flashcard() {
       <Content 
         vocabularies = {vocabularies}
         handleStarClick= {handleStarClick}
-        handleExampleClick= {handleExampleClick}
+        handleExampleClick= {handleExampleClick}     
+        
       />
       
     </div>
