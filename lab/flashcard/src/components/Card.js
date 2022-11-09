@@ -1,49 +1,49 @@
+import { FaStar } from "react-icons/fa";
 import Button from "./Button";
-export default function Card( {
-    id,
-    handleStarClick,
-    word,
-    part_of_speech,
-    definition,
-    handleExampleClick,
-    Example,
+import "../styles.css";
+export default function Card({
+  id,
+  handleStarClick,
+  //作為prop傳進來
+  //card 會在 content
+  //所以 content 設定
+  word,
+  part_of_speech,
+  definition,
+  handleExampleClick,
+  Example,
 }) {
-    return (
-        <>
-          <div className="vocabulary">
-            {/* star button here */}
-            {/* <Button className={"example-button"}>
-              <FaStar
-                icon = "fa-star"
-                className = "fa-star"
-                id = {`star-${id}`}
-                onClick = {handleStarClick}
-              />
-
-            </Button> */}
-          
-            <h2 className = "word">{word}</h2>
-            <h4>{part_of_speech}</h4>
-          </div>
-          <h3 className="definition">{definition}</h3>
-          {/* example button here         */}
-          
-          <Button
-          className={"example-button"} 
-          text = {"Example"} 
-          onClick = {handleExampleClick}
-          
+  return (
+    <>
+      <div className="vocabulary">
+        {/* star button here */}
+        {/* <Button className={"example-button"}> */}
+          <FaStar
+            icon="fa-star"
+            className="fa-star"
+            id={`star-${id}`}
+            onClick={handleStarClick}
           />
-          <h5 className="Example">{Example}</h5>
-          {/*text ? Example:definition*/}
-          
-          
-                      
-       {/*handleExampleClick 寫在flashcard裡面*/}
-        </>
-    );
-}
+        {/* </Button> */}
 
+        <h2 className="word">{word}</h2>
+        <h4>{part_of_speech}</h4>
+      </div>
+      <h3 className="definition">{definition}</h3>
+      {/* example button here         */}
+
+      <Button
+        className={"example-button"}
+        text={"Example"}
+        onClick={handleExampleClick}
+      />
+      <h5 className="Example">{Example}</h5>
+      {/*text ? Example:definition*/}
+
+      {/*handleExampleClick 寫在flashcard裡面*/}
+    </>
+  );
+}
 
 //照影片做的
 // import React, {useState} from "react";
@@ -56,7 +56,6 @@ export default function Card( {
 //     function handleClick (){
 //         changeFace(oldState => !oldState);
 //         //if oldState is true it is gonna be false vice versa
-
 
 //         //寫了isFront changeFace後再修改一次
 //         // setText (function(oldState) {
@@ -75,20 +74,20 @@ export default function Card( {
 //         //     }
 //         // });
 //         //backSide
-//         //update the state of the function 
+//         //update the state of the function
 //     }
 //     //if isFront is true : fronSide otherwise backSide
 //     const text = isFront ? frontSide : backSide ;
 //     const sideClass = isFront ? "front" : "back" ;
 //     const classList = `flash-card $ {sideClass}`;
-//     // flash-card is the 1st class 
+//     // flash-card is the 1st class
 //     //細節可以看 string and templates
 //     return (
 //         <div className={classList} onClick = {handleClick}>
-//             {text} 
+//             {text}
 //         </div>
 //         //className="flash-card" onClick = {handleClick}>
-//         //{text} 
+//         //{text}
 //     )
 // }
 

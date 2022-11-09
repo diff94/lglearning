@@ -1,7 +1,8 @@
+import React from "react";
 import Header from "../components/Header";
 import Content from "../components/Content";
 //import component function from the file
-import '../../public/styles.css';
+import "../styles.css"; //import "../../public/styles.css";
 // 叫兩層上去
 //Flashcard就是我們app.js
 //所以不用再創app了唷
@@ -34,33 +35,26 @@ const vocabularies = [
   },
 ];
 //這裡是把function寫在flashcard (app)
-//也可以學影片把function 寫成另個component 
+//也可以學影片把function 寫成另個component
 //參考Cardtest那樣
 function Flashcard() {
-  const[text,setText]= React.useState(false);
-  const Example = vocabularies.map(i=>i.example);
+  const [toggleText, setToggleText] = React.useState(false);
+  const Example = vocabularies.map((i) => i.example);
   //Example = vocabularies.example
   //definition = vocabularies.definition
-  const definition = vocabularies.map(i=>i.definition);
-  const handleExampleClick = () => {
-    setText(!text);
+  const definition = vocabularies.map((i) => i.definition);
+  const oldhandleExampleClick = () => {
+    setToggleText((prev) => !prev);
   };
-  return (
-    <>
-      
-     
-      <button onClick={handleExampleClick}>
-      click
-      <h5 id="Example">{
-      text ? Example:definition
-      }</h5>
-      </button>
-      
-    </>    
-  )
+  // return (
+  //   <>
+  //     <button onClick={handleExampleClick}>
+  //       click
+  //       <h5 id="Example">{text ? Example : definition}</h5>
+  //     </button>
+  //   </>
+  // );
 
-
-  
   // //如果用state但似乎還是會不讀到example
   // const[text,setText]= React.useState(false);
   // const handleExampleclick = (vocabularies) => {
@@ -73,19 +67,38 @@ function Flashcard() {
   //       return <h5>{Example}</h5>;
   //     }
 
-        
   // };
   // const old_handleExampleclick = (e) => {
   //   e.currentTarget.style.visibility = 'hidden';
   //   console.log(e.currentTarget);
-    
+
   // };
-  // const handleExampleClick = (event) => {
-  //   event.preventDefault();
-  //   event.currentTarget.style.visibility = 'hidden';
-  //   console.log(e.currentTarget);
-    
-  // };
+  const handleExampleClick = (event) => {
+    //event.currentTarget.parentNode 是 card 從 dev tool 查看的
+    const card = event.currentTarget.parentNode;
+    const children = card.childNodes;
+    const example = children[children.length - 1];
+    //example 是 h5 是 children最一個
+    const visibility = example.style.visibility;
+    if (visibility === "hidden") {
+      example.style.visibility = "";
+    } else if (visibility === "") {
+      example.style.visibility = "hidden";
+    }
+    //visibility =
+    //event.currentTarget.style.visibility;
+    //console.log(event.currentTarget.parentNode, visibility);
+    // console.log(card)
+    // console.log 是print 功能
+    // card 就是
+    // document.querySelector("#root > div > div > div:nth-child(1)")
+    //event.currentTarget 是 <button class="example-button">Example</button>
+    // event.currentTarget.parentNode
+    //去browser 的 dev tool 可以看到 event.currentTarget.parentNode
+    //<h5 class="Example">It was a very knotty problem.</h5>
+    // event.preventDefault();
+    //  = 'hidden';
+  };
   //不使用state
   // const old_handleExampleclick = (oldState => {
   //   if (oldState === vocabularies.definition){
@@ -109,29 +122,39 @@ function Flashcard() {
   //     return vocabularies.definition;
   //   }
   // });
-  const handleStarClick = (event) => {
-    //一定要用arrow function 
-
-  };
-  // const handleExampleclick = (event) => {
-
+  // const handleStarClick = (event) => {
+  //   //一定要用arrow function
   // };
-  
+  // 改class tag or assign color
+  const handleStarClick = (event) => {
+    //event.currentTarget.parentNode 是 card 從 dev tool 查看的
+    //console.log(event.currentTarget)
+    const star = event.currentTarget;
+    const className = star.className.baseVal;
+    // const example = children[children.length - 1];
+    // //example 是 h5 是 children最一個
+    // const visibility = example.style.visibility;
+    if (className === "fa-star") {
+      star.className.baseVal = "fa-star-yellow";
+    } else if (className === "fa-star-yellow") {
+      star.className.baseVal = "fa-star";
+    }
+    // const handleExampleclick = (event) => {
+  };
+
   return (
     <div>
-      <Header title = {"My Flash Card"} />
-      <Content 
-        vocabularies = {vocabularies}
-        handleStarClick= {handleStarClick}
-        handleExampleClick= {handleExampleClick}     
-        
+      <Header title={"My Flash Card"} />
+      <Content
+        vocabularies={vocabularies}
+        handleStarClick={handleStarClick}
+        handleExampleClick={handleExampleClick}
+        //要把這個傳content
       />
-      
     </div>
-
   );
-  // console.log(vocabularies);
-  // 查一下console.log的意思
+  //   // console.log(vocabularies);
+  //   // 查一下console.log的意思
 }
 
 export default Flashcard;

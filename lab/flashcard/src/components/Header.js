@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
-export default function Header({title}) {
-    return <header className = "title">{title}</header>;
+export default function Header({ title }) {
+  return <header className="title">{title}</header>;
 }
 Header.propTypes = {
-    title: PropTypes.string.isRequired,
-}
+  title: PropTypes.string.isRequired,
+};

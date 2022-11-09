@@ -1,18 +1,16 @@
 export default function Button(props) {
-    return(
-        
-        <button className={props.className} onClick = {props.onClick}>
-            {props.text}
-            {props.children}
-        </button>
-
-    );
+  return (
+    <button className={props.className} onClick={props.onClick}>
+      {props.text}
+      {props.children}
+    </button>
+  );
 }
 
 //https://blog.logrocket.com/react-onclick-event-handlers-guide/
 // export default function Button(props) {
 //     return(
-        
+
 //         <button className={props.className} onClick = {props.onClick}>
 //             {props.text}
 //             {props.children}

@@ -130,56 +130,19 @@ export default function Cardtest({frontSide,backSide}){
 //{ }也是在告知
 //give me useState property of react
 //這樣寫了後就不用React.useState
-// export default function Card ({frontSide,backSide}){
-//         const[text,setText]= useState(frontSide);
-//         function handleClick (){
-//             // setText(backSide);
-//             //為了再按一次可以回來
-//             //我們要更新state 所以setText狀態要修改
-//             //arrow function 
-//           setText (oldState => {
-//             if (oldState === frontSide){
-//               return backSide;
-//             } else {
-//               return frontSide;
-//             }
-//           });
-    
-//         }
-//         // return <div className="flsh-card">{text}</div>
-//         //在return裡面召喚handleClick
-//         return (
-//         <div className="flsh-card" onClick = {handleClick}>
-//           {text}
-//         </div>
-//         )
-// }
-
-
-//如果不喜歡arrow function可以變成這樣
 export default function Card ({frontSide,backSide}){
-    const[text,setText]= useState(frontSide);
-    function handleClick (){
-        // setText(backSide);
-        //為了再按一次可以回來
-        //我們要更新state 所以setText狀態要修改
-        //arrow function 
-      setText (function(oldState) {
-        if (oldState === frontSide){
-          return backSide;
-        } else {
-          return frontSide;
+        const[text,setText]= useState(frontSide);
+        function handleClick (){
+            setText(backSide);
+    
         }
-      });
-
-    }
-    // return <div className="flsh-card">{text}</div>
-    //在return裡面召喚handleClick
-    return (
-    <div className="flsh-card" onClick = {handleClick}>
-      {text}
-    </div>
-    )
+        // return <div className="flsh-card">{text}</div>
+        //在return裡面召喚handleClick
+        return (
+        <div className="flsh-card" onClick = {handleClick}>
+          {text}
+        </div>
+        )
 }
 
     
