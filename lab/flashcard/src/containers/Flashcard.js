@@ -37,13 +37,40 @@ const vocabularies = [
 //也可以學影片把function 寫成另個component 
 //參考Cardtest那樣
 function Flashcard() {
-  //如果用state但似乎還是會不讀到example
   const[text,setText]= React.useState(false);
-  const handleExampleclick = () => {
-    console.log(Example);
+  const Example = vocabularies.map(i=>i.example);
+  const definition = vocabularies.map(i=>i.definition);
+  const handleExampleClick = () => {
     setText(!text);
-    
   };
+  return (
+    <>
+      <h5 id="example-button">{
+      text ? Example:definition
+      }</h5>
+      <button onClick={handleExampleClick}>
+      click
+      </button>
+    </>
+    
+  )
+
+
+  
+  // //如果用state但似乎還是會不讀到example
+  // const[text,setText]= React.useState(false);
+  // const handleExampleclick = (vocabularies) => {
+  //   let Example = vocabularies.map(i=>i.example);
+  //   console.log(Example);
+  //   setText(!text);
+  //        if (text){
+  //       return <h5>{vocabularies.definition}</h5>;
+  //     }else{
+  //       return <h5>{Example}</h5>;
+  //     }
+
+        
+  // };
   // const old_handleExampleclick = (e) => {
   //   e.currentTarget.style.visibility = 'hidden';
   //   console.log(e.currentTarget);
@@ -92,7 +119,7 @@ function Flashcard() {
       <Content 
         vocabularies = {vocabularies}
         handleStarClick= {handleStarClick}
-        handleExampleclick= {handleExampleclick}
+        handleExampleClick= {handleExampleClick}
         
        />
     </div>

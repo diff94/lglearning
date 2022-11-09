@@ -27,12 +27,16 @@ export default function Card( {
           </div>
           <h3 className="definition">{definition}</h3>
           {/* example button here         */}
+          <h5 className="Example">{
+          text ? Example:definition
+          }</h5>
           <Button 
           className={"example-button"} 
           text = {"Example"} 
           onClick = {handleExampleClick}
-          /> 
-          <h5>{Example}</h5>            
+          />
+          
+                      
        {/*handleExampleClick 寫在flashcard裡面*/}
         </>
     );
