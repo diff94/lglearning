@@ -11,6 +11,7 @@ export default function Content({vocabularies}) {
                 definition = {v.definition}
                 Example = {v.example}
                 handleExampleclick={v.example}
+                
               />
             </div>
 

@@ -39,20 +39,22 @@ const vocabularies = [
 function Flashcard() {
   const[text,setText]= React.useState(false);
   const Example = vocabularies.map(i=>i.example);
+  //Example = vocabularies.example
+  //definition = vocabularies.definition
   const definition = vocabularies.map(i=>i.definition);
   const handleExampleClick = () => {
     setText(!text);
   };
   return (
     <>
-      <h5 id="example-button">{
+      
+      <h5 id="Example">{
       text ? Example:definition
       }</h5>
       <button onClick={handleExampleClick}>
       click
       </button>
-    </>
-    
+    </>    
   )
 
 
@@ -120,8 +122,8 @@ function Flashcard() {
         vocabularies = {vocabularies}
         handleStarClick= {handleStarClick}
         handleExampleClick= {handleExampleClick}
-        
-       />
+      />
+      
     </div>
 
   );
