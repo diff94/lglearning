@@ -1,15 +1,13 @@
 .title {
-    font: italic 2.1em/2.2 georgia; 
-	text-align: center;
-    font-weight: bold;
-    min-width: 470px;
-	width: 100%;
-    
-    
-  }
+  font: italic 2.1em/2.2 georgia;
+  text-align: center;
+  font-weight: bold;
+  min-width: 470px;
+  width: 100%;
+}
 /*Header.js 裡classname 是 title 所以css format用 .title to do styling 
 A CSS comment is placed inside the <style> element, and starts with /* 
-and ends with */ 
+and ends with */
 /*font-size: 30px;
     font-family: Lato;
     text-align: center;
@@ -19,41 +17,34 @@ and ends with */
     vertical-align: middle;
      */
 
-.word{
-    font-size: 25px;
-    font-family: georgia;
-    text-align: center;
-
- } 
+.word {
+  font-size: 25px;
+  font-family: georgia;
+  text-align: center;
+}
 .card {
-    display:inline-block;
-    font-size: 20px;
-    line-height: 50px;
-    width: 350px;
-    border: 5px solid rgb(128, 0, 70);
-    margin: 80px;
-    cursor: pointer;
-    user-select: none;
-    text-align: center;
-    padding:10px;
-       
-    
-  }
-.example-button{
-    display:inline-block;
-    background-color: rgb(255, 0, 215);
-    cursor: pointer;
-    color :antiquewhite
-    
+  display: inline-block;
+  font-size: 20px;
+  line-height: 50px;
+  width: 350px;
+  border: 5px solid rgb(128, 0, 70);
+  margin: 80px;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  padding: 10px;
+}
+.example-button {
+  display: inline-block;
+  background-color: rgb(255, 0, 215);
+  cursor: pointer;
+  color: antiquewhite;
 }
 
 .flash-card.front {
-    background-color: rgb(206, 223, 13);
-
+  background-color: rgb(206, 223, 13);
 }
 
-
 .flash-card.back {
-    background-color: rgb(13, 97, 223);
-
+  background-color: rgb(13, 97, 223);
 }
